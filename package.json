@@ -91,3 +91,6 @@
     "vitest": "^3.2.4"
   }
 }
+"scripts": {
+  "build": "npm install --legacy-peer-deps && vite build"
+}
