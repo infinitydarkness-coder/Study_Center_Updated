@@ -1,73 +1,140 @@
-# Welcome to your Lovable project
+# 📚 Study Center 🚀
 
-## Project info
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?size=25&color=36BCF7&center=true&vCenter=true&width=600&lines=Learn+Smarter+🚀;Share+Knowledge+📚;Grow+Together+🌍;Powered+by+Students+💡" />
+</p>
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Backend-Supabase-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Frontend-JS-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge"/>
+</p>
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 About Study Center
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Study Center is a modern **student-powered learning platform** where users can:
 
-Changes made via Lovable will be committed automatically to this repo.
+- 📤 Upload study materials  
+- 📚 Explore shared resources  
+- 🧠 Learn with AI-powered features  
+- ✅ Access only verified content  
 
-**Use your preferred IDE**
+💡 Built to make learning **collaborative, fast, and smart**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🎥 Preview
 
-Follow these steps:
+<p align="center">
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="600"/>
+</p>
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## ✨ Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 📤 Upload System
+- Upload PDFs, videos, notes
+- Stored securely in Supabase
+- Status: `Pending → Approved`
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+---
 
-**Edit a file directly in GitHub**
+### ✅ Admin Approval
+- Approve or reject materials
+- Maintains quality
+- Prevents spam
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+### 📚 Material Browsing
+- Explore by subject
+- Download/view files
+- Clean UI
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+### 📊 Dashboard
+- ⏳ Pending  
+- ✅ Approved  
+- ❌ Rejected  
+- 📊 Total uploads  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 🧠 AI Roadmap (Coming Soon)
+- Generate learning paths  
+- Example:
+  - AI Engineer  
+  - Web Developer  
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🧠 System Flow
+User → Upload → Storage → Database → Admin Review → Approved → Public
 
-## Can I connect a custom domain to my Lovable project?
+## 🏗️ Tech Stack
+Frontend → HTML, CSS, JavaScript
+Backend → Supabase
+Auth → Supabase Auth
+Database → PostgreSQL
+Storage → Supabase Storage
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🗂️ Database Structure
+
+### 📄 materials
+- id
+- title
+- type
+- file_url
+- subject_id
+- uploaded_by
+- status
+- created_at
+
+---
+
+### 📘 subjects
+- id
+- subject_name
+- course_id
+
+---
+
+### 🎓 courses
+- id
+- course_name
+
+---
+
+## ⚙️ Getting Started
+
+```bash
+git clone https://github.com/your-username/study-center.git
+cd study-center
+Open index.html or run your dev server.
+🎯 Future Plans
+⭐ Likes & ratings
+💬 Comments
+🔍 Smart search
+🤖 AI chatbot
+📈 Analytics
+🤝 Contributing
+Pull requests are welcome!
+Let’s build something amazing together 🚀
+
+📜 License
+MIT License
+
+💙 Author
+Made with passion by Sanskar and Team
+
+<p align="center"> 🚀 “Study smart. Build smarter.” </p> ```
