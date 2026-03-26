@@ -137,4 +137,4 @@ MIT License
 💙 Author
 Made with passion by Sanskar and Team
 
-<p align="center"> 🚀 “Study smart. Build smarter.” </p> ```
+ 🚀 “Study smart. Build smarter.” ```
